@@ -9,11 +9,11 @@ nestjs-stripe is a NestJS module for integrating Stripe into your application, a
 ## Instalation
 
 ```bash
-$ npm i @stack-pulse/nestjs-stripe
+ npm i @stack-pulse/nestjs-stripe
 ```
 
 ```bash
-$ yarn add @stack-pulse/nestjs-stripe
+ yarn add @stack-pulse/nestjs-stripe
 ```
 Nest.js and Stripe are peer dependencies.
 
@@ -86,3 +86,4 @@ __check_payment_method(payment_method,customer_id)
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 ```
+32
