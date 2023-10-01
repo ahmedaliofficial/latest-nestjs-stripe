@@ -1,14 +1,16 @@
 {
   "name": "@stack-pulse/nestjs-stripe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Injectable Stripe client for Nestjs And Create A Futres And Cards Payment flow",
   "license": "MIT",
-  "author": {
-    "name": "Ahmed Ali",
-    "email": "stackpulsebusiness@gmail.com"
+  "author": "Ahmed Ali <stackpulsebusiness@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackpulse/nestjs-stripe.git"
   },
-  "repository": "https://github.com/stackpulse/nestjs-stripe",
-  "bugs": "https://github.com/stackpulse/nestjs-stripe/issues",
+  "bugs": {
+    "url": "https://github.com/stackpulse/nestjs-stripe/issues"
+  },
   "private": false,
   "keywords": [
     "nestjs",
@@ -70,5 +72,9 @@
     "rxjs": "7.8.0",
     "ts-jest": "29.0.5",
     "typescript": "4.9.5"
+  },
+  "homepage": "https://github.com/stackpulse/nestjs-stripe#readme",
+  "directories": {
+    "lib": "lib"
   }
 }
