@@ -31,7 +31,7 @@ import { ConfigModule, ConfigService } from  '@nestjs/config';
 	imports: [ConfigModule],
 	useFactory: (configService: ConfigService) => ({
        apiKey: configService.get('STRIPE_SECRET_KEY'),
-       config: { apiVersion: "2023-08-16" }
+       config: { apiVersion: "2024-04-10" }
        }),
     inject: [ConfigService]
  })
