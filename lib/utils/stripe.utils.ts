@@ -8,6 +8,6 @@ export function createStripeClient({
   apiKey,
   config
 }: typeof OPTIONS_TYPE): StripeClient {
-  const client = new Stripe(apiKey, config);
-  return client;
+  const client = new Stripe(apiKey, config)
+  return client
 }

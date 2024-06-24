@@ -13,4 +13,4 @@ export const {
     global: extras.isGlobal,
   }))
   .setClassMethodName('forRoot')
-  .build();
+  .build()
