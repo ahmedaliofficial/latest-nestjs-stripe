@@ -9,11 +9,11 @@ nestjs-stripe is a NestJS module for integrating Stripe into your application, a
 ## Instalation
 
 ```bash
- npm i @stack-pulse/nestjs-stripe
+ npm i latest-nestjs-stripe
 ```
 
 ```bash
- yarn add @stack-pulse/nestjs-stripe
+ yarn add latest-nestjs-stripe
 ```
 Nest.js and Stripe are peer dependencies.
 
@@ -22,7 +22,7 @@ Nest.js and Stripe are peer dependencies.
 
 
 ```typescript
-import { StripeModule } from  '@stack-pulse/nestjs-stripe';
+import { StripeModule } from  'latest-nestjs-stripe';
 import { ConfigModule, ConfigService } from  '@nestjs/config';
 
 @Module({
@@ -47,7 +47,7 @@ Then, use the ervice:
 
 ```typescript
 import { Controller, Get, Inject } from "@nestjs/common";
-import { StripeService } from  '@stack-pulse/nestjs-stripe';
+import { StripeService } from  'latest-nestjs-stripe';
 
 @Controller("your-route-path")
 export class YourController {
