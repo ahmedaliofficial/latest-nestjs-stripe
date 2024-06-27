@@ -1,6 +1,7 @@
 
 
-import Stripe from 'stripe';
+import { Request } from 'express'
+import Stripe from 'stripe'
 
 export type StripeClient = Stripe;
 
@@ -23,3 +24,10 @@ export type DetachPaymentMethod = {
   statusCode: number,
   message: string
 }
+
+
+export interface StripeEventRequestI extends Request {
+  rawBody: Buffer
+  event: Stripe.Event
+}
+

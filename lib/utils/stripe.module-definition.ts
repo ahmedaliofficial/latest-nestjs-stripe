@@ -1,6 +1,6 @@
-import { ConfigurableModuleBuilder } from '@nestjs/common';
+import { ConfigurableModuleBuilder } from '@nestjs/common'
 
-import { ExtraConfiguration, StripeModuleOptions } from './stripe.interface';
+import { ExtraConfiguration, StripeModuleOptions } from './stripe.interface'
 
 export const {
   ConfigurableModuleClass,

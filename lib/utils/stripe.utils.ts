@@ -1,6 +1,6 @@
-import Stripe from 'stripe';
-import { StripeClient } from './stripe.interface';
-import { OPTIONS_TYPE } from './stripe.module-definition';
+import Stripe from 'stripe'
+import { StripeClient } from './stripe.interface'
+import { OPTIONS_TYPE } from './stripe.module-definition'
 
 
 
@@ -11,3 +11,10 @@ export function createStripeClient({
   const client = new Stripe(apiKey, config)
   return client
 }
+
+
+export enum STRIPE_RESOURCE {
+  SIGNATURE = 'stripe-signature'
+}
+
+
