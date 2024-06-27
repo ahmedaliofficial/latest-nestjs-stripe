@@ -1,6 +1,6 @@
 {
   "name": "latest-nestjs-stripe",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Injectable Stripe client for Nestjs And Create A Futres And Cards Payment flow",
   "license": "MIT",
   "author": "Ahmed Ali <info@ahmedali.click>",
